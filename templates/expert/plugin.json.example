@@ -1,0 +1,30 @@
+{
+  "name": "your-expert-id",
+  "expertType": "agent",
+  "version": "1.0.0",
+  "description": "One-line English description shown in review.",
+  "author": { "name": "your-name", "email": "you@example.com" },
+  "plugin": "",
+  "agents": ["agents/main.md"],
+  "agentName": "main",
+  "displayName": { "en": "Your Expert", "zh": "你的专家名" },
+  "profession": { "en": "Profession", "zh": "职称" },
+  "displayDescription": {
+    "en": "English description.",
+    "zh": "中文简介必须 40-50 字，突出核心能力，逐字数清楚。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "06-ContentCreative",
+  "defaultInitPrompt": { "en": "First quick prompt in English", "zh": "必须与 quickPrompts[0].zh 完全一致" },
+  "tags": [
+    { "en": "tag-1", "zh": "标签一" },
+    { "en": "tag-2", "zh": "标签二" },
+    { "en": "tag-3", "zh": "标签三" }
+  ],
+  "quickPrompts": [
+    { "en": "First quick prompt in English", "zh": "必须与 defaultInitPrompt.zh 一致" },
+    { "en": "Second quick prompt", "zh": "第二个推荐提示词" },
+    { "en": "Third quick prompt", "zh": "第三个推荐提示词" }
+  ],
+  "skills": ["./skills/your-skill-id"]
+}
